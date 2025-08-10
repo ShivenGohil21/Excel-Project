@@ -1,0 +1,129 @@
+.login-full-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 20px;
+}
+
+/* The outer wrapper (card) */
+.login-content-wrapper {
+  background-color: #f5f5f5;
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Flex row inside the box */
+.login-columns {
+  display: flex;
+  gap: 40px;
+  flex-direction: row;
+}
+
+/* Left and right sections */
+.login-left,
+.login-right {
+  flex: 1;
+}
+
+/* Heading */
+.login-left h4 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+/* Input fields */
+.login-input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 6px;
+}
+
+/* Submit button */
+.login-btn {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 20px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-btn:hover {
+  background-color: #357ae8;
+}
+
+/* Google Button */
+.social-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-top: 60px;
+  color: black;
+}
+
+.social-btn:hover {
+  background-color: #f0f0f0;
+}
+
+.social-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Footer */
+.login-footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+}
+
+.login-footer a {
+  color: #4285f4;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive for small screens */
+@media (max-width: 768px) {
+  .login-columns {
+    flex-direction: column;
+  }
+
+  .social-btn {
+    margin-top: 20px;
+  }
+}
+
+.black-placeholder::placeholder {
+  color: black;
+  opacity: 1;
+}

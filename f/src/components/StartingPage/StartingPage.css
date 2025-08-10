@@ -1,0 +1,72 @@
+
+
+
+.excel-portal {
+  background: linear-gradient(to right, #f5f8ff, #e8f0fc);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.portal-content {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.text-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.text-content .highlight {
+  color: #205eff;
+}
+
+.text-content p {
+  font-size: 1.2rem;
+  margin: 20px 0;
+  color: #333;
+}
+
+.start-button {
+  background-color: #205eff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.start-button:hover {
+  background-color: #003ccc;
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.dotted-background {
+  background-image: radial-gradient(#d2d7e4 1px, transparent 1px);
+  background-size: 20px 20px;
+  padding: 60px;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.excel-image {
+  max-width: 100%;
+  height: auto;
+  max-height: 500px; /* Previously 340px */
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}

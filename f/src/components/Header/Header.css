@@ -1,0 +1,39 @@
+.custom-navbar {
+  background: linear-gradient(to right, #a1a1a1, #c4c4c4); /* similar to your screenshot background */
+  padding: 0.7rem 2rem;
+}
+
+.project-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.center-nav .nav-item {
+  font-weight: 600;
+  color: white;
+  margin: 0 1rem;
+}
+
+.center-nav .dropdown-toggle {
+  color: white !important;
+}
+
+.right-nav .login-link {
+  font-weight: 600;
+  color: white !important;
+  margin-right: 1rem;
+}
+
+.get-started-btn {
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  border: none;
+  padding: 0.4rem 1rem;
+  border-radius: 0;
+}
+
+.get-started-btn:hover {
+  background-color: #f0f0f0;
+}
