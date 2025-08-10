@@ -17,7 +17,7 @@ const UploadedFiles = () => {
     }
 
     axios
-      .get("http://localhost:8080/api/uploads", {
+      .get("api/uploads", {
         params: { user },
         withCredentials: true,
       })

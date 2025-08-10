@@ -24,7 +24,7 @@ const MainPage = () => {
     try {
       const token = localStorage.getItem("token");
 
-      const res = await fetch("http://localhost:8080/api/upload", {
+      const res = await fetch("https://excel-project-1.onrender.com/api/upload", {
         method: "POST",
         headers: {
           Authorization: `Bearer ${token}`,

@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:8080", // or your deployed backend URL
+  baseURL: "https://excel-project-1.onrender.com", // or your deployed backend URL
   withCredentials: true,            // ✅ send cookies for auth
 });
 
