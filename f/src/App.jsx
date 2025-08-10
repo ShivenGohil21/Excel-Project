@@ -48,7 +48,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // Component imports
 import Header from "./components/Header/Header";
-import StartingPage from "./components/StartingPage/Startingpage.jsx";
+import StartingPage from "./components/StartingPage/StartingPage.jsx";
 import LoginPage from "./components/Login/LoginPage.jsx";
 import SignupPage from "./components/Login/Signup.jsx";
 import ForgotPasswordPage from './components/Login/ForgotPasswordPage.jsx';
