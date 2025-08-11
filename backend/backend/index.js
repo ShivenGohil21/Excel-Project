@@ -45,3 +45,24 @@ const startServer = async () => {
 };
 
 startServer();
+
+
+
+// index.js (or server entry)
+
+
+const allowedOrigins = [
+  process.env.FRONTEND,        // production origin (https://excel-project-2.onrender.com)
+  "http://localhost:5173",     // your react dev origin
+  "http://localhost:3000",     // optional common dev port
+];
+
+app.use(cors({
+  origin: function(origin, callback){
+    // allow requests with no origin (mobile apps, curl, postman)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) return callback(null, true);
+    callback(new Error("CORS policy: Origin not allowed: " + origin));
+  },
+  credentials: true,
+}));

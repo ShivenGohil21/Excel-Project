@@ -10,6 +10,8 @@ const uploadedFileSchema = new mongoose.Schema({
   userEmail: String,
   data: Array,
   columns: Array,
+  cloudinaryUrl: String,
+  cloudinaryPublicId: String,
 });
 
 export default mongoose.model("uploadedFile", uploadedFileSchema);
